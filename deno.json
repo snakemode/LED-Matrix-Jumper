@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "start": "deno run server.js",
+    "devserver": "deno run --watch --inspect server.js",
+    "debug": "deno --inspect server.js",
+    "test": "vitest run"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
