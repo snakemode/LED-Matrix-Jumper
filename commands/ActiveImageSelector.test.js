@@ -1,5 +1,5 @@
-const each = require('jest-each').default;
-const ActiveImageSelector = require("./ActiveImageSelector");
+import each from 'jest-each';
+import ActiveImageSelector from "./ActiveImageSelector.js";
 
 const sut = new ActiveImageSelector();
 
